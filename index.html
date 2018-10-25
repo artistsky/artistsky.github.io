@@ -1,170 +1,132 @@
 <!DOCTYPE html>
-<html>
-    <lang="en">
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GameTrade</title>
     
-    <link href="churchstreet_sarahbellefeuille.pdf" rel="stylesheet">
-    <link href="bellefeuille_bookcoverredesign.pdf" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
     
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      
     
-<style>
-* 
-    
-    {
-    box-sizing: border-box;
-}
-    a:link {
-    color: red; 
-    background-color: transparent; 
-    text-decoration: none;
-    text-size:15px;
-}
-
-a:visited {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-    text-size:15px;
-}
-
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
-    text-size: 15px;
-}
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
-    text-size: 15px;
-}
-
-body {
-    background-color: white;
-    padding: 20px;
-    font-family: Arial;
-}
-
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 20px;
-    word-break: break-all;
-}
-
-.row {
-    margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-    padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-</style>
 </head>
+
 <body>
 
-<!-- MAIN (Center website) -->
-<div class="main">
+     <header>
 
-    <h1 align=left>Sarah Bellefeuille</h1> <p align="right"> <a href=index>Projects</a>&nbsp;&nbsp;&nbsp;<a href=about>About</a></p> 
-    
-<hr>
-
-<h2>portfolio</h2>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-        <p> note to self: change pdf to images -> </p>
-      
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-        <p> book cover redesign </p>
-        <embed src="../bellefeuille_bookcoverredesign.pdf" type="pdf"   height="300px" width="100%" class="responsive">
-
+        <div id="logo">
+             <a href="../home/home.html">
+            <img border="0"
+                alt="logo"
+                 src="images/logo.png"
+                 /></a>
+        </div>
         
+       
+         <div id="cart">  
+                
+                  <a href="../cart/cart.html">
+                 <img border="0" alt="cart" src="images/cart.png" width="50" height="50"> </a>
+             
+             
+        </div>
+        
+         <div class="SearchBar">
+            <form>
+             <input type="text" placeholder="Search GameTrade" required> <button>Search </button>
+            </form>
+        </div>
     
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-        <p> church street branding </p>
-        <embed src="../churchstreet_sarahbellefeuille.pdf" type="pdf"   height="300px" width="100%" class="responsive">
 
-   
-   
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    
-    
-    </div>
-  </div>
-<!-- END GRID -->
-</div>
+    </header>
 
-<div class="content">
-  
-</div>
-
-<!-- END MAIN -->
-</div>
-    
-       <p class="sansserif">Under Construction</p>
+    <nav>
  
-   <p> Classwork for web design II class: </P>
-   <p> <a href=testingtextproperties>Text Properties</a></p>
-   <p><a href=modrian_hw5>Modrian</a></p>
+        <ul>
+            <li><a href="../home/home.html">HOME</a></li>
+            
+            <li>
+                <a href="../games/games.html">GAMES</a>
+                <ul>
+    <li>Abstracts</li>
+    <li>Board Games</li>
+    <li>Card Games</li>
+    <li>Dexterity Games</li>
+    <li>Family Games</li>
+    <li>Hasbro Games</li>
+    <li>Party Games</li>
+    <li>Roll and Move</li>
+    </ul>       
+                </li>
+            
+            <li><a href="../new/new.html">NEW</a>
+             <ul>
+      <li>New Arrival</li>
+      <li>Deals</li>
+    </ul>
+            </li>
+           
+            <li><a href="../explore/explore.html">EXPLORE</a>     
+            </li>
+            
+            <li><a href="../community/community.html">COMMUNITY</a>
+             <ul>
+      <li>Blog</li>
+      <li>Video</li>
+    </ul>
+            </li>
+        
+        </ul>
 
-
-</body>
+    </nav>
     
+ 
+ 
+    <div class="main-content">
+    
+      
+        <div id="hero">
+        
+     
+            
+        <div id="slide-show">
+            <p>Modern, clean, and simple while keeping the traditional. As a 
+company, GameTrade puts the customer’s best interest first. It’s about community and connections, and our priority is helping 
+every transaction to go as smoothly as possible. GameTrade makes
+it easier for the customers to sell their old games that are just lying
+around in the house, and give it to the next loving home while also
+making a profit and possibly a new friend. Pieces of games can
+also be sold to prospective buyers who want to gain a complete set.
+            
+            </p>
+            
+            <image src="images/aboutpic.jpg"/>
+        </div>
+ 
+         
+               </div>
+        
+    </div>
+
+    <footer>
+    
+         <ul>
+            <li><a href="../contact/contact.html">CONTACT US</a></li>
+             
+             <li><a href="../about/about.html">ABOUT US</a></li>
+             
+            <li><a href="help">HELP</a></li>
+            <li><a href="track-order.html">TRACK ORDER</a></li>
+            <li><a href="shipping-info.html">SHIPPING INFO</a></li>
+        
+        </ul>
+    
+     <h2>©2017 GameTrade.com All Rights Reserved.</h2>   
+        
+    </footer>
+  
+
+    </body>
+
 </html>
-
-
