@@ -1,0 +1,65 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
+
+.left-side{
+  text-align: right;
+  position: absolute;
+  width:calc(40vw - 25px);
+}
+
+.right-side{
+  position: absolute;
+  left: calc(40vw + 80px);
+  max-width: 650px;
+}
+.linebruh{
+  position: absolute;
+  left: 40vw;
+  height: 100%;
+  border-left: 2px solid LightSlateGray;
+}
+.namebox{
+  width:calc(40vw + 2px);
+  height:100px;
+  position: absolute;
+  background-color: #0170BC;
+  z-index: 1;
+}
+.nametext{
+  font-weight:bold;
+  position: relative;
+  /* left:50%; */
+  top:50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  text-align:center !important;
+  font-size:40px;
+  color: snow;
+  /* margin:0;*/
+  overflow: hidden;
+  /* word-wrap: break-word; */
+  /* display: block; */
+  /* text-overflow: ""; */
+}
+.aftername{
+  position: relative;
+  top: 125px;
+}
+
+h3{
+  font-family: Bitter, serif;
+  line-height: 3;
+}
+p, h4{
+  line-height: 1.5;
+  margin: 0;
+}
+.contact p{
+  line-height: 1.25;
+}
+
+.halfspace{
+  line-height: .75;
+}
