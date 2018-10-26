@@ -5,10 +5,6 @@
   
   <style>
 * 
-    
-    {
-    box-sizing: border-box;
-}
     a:link {
     color: red; 
     background-color: transparent; 
@@ -36,7 +32,7 @@ a:active {
     text-decoration: none;
     text-size: 15px;
   
-  body {
+  body,h1,h2,p {
     background-color: white;
     padding: 5px;
     font-family: Arial;
@@ -48,39 +44,6 @@ a:active {
     margin: auto;
 }
 
-h1 {
-    font-size: 15px;
-    word-break: break-all;
-}
-
-.row {
-    margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-    padding: 5px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 5px;
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -111,7 +74,7 @@ h1 {
     background-color: white;
     
 </style>
-}
+
   </style>
 </head>
 <body>
