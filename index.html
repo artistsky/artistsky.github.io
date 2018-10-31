@@ -4,6 +4,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <link href="churchstreet_sarahbellefeuille.pdf" rel="stylesheet">
+    <link href="bellefeuille_bookcoverredesign.pdf" rel="stylesheet">
+    
+    
 <style>
 * 
     
@@ -14,21 +18,21 @@
     color: red; 
     background-color: transparent; 
     text-decoration: none;
-    text-size:10px;
+    text-size:15px;
 }
 
 a:visited {
     color: red;
     background-color: transparent;
     text-decoration: none;
-    text-size:10px;
+    text-size:15px;
 }
 
 a:hover {
     color: blue;
     background-color: transparent;
     text-decoration: none;
-    text-size: 10px;
+    text-size: 15px;
 }
 
 a:active {
@@ -40,7 +44,7 @@ a:active {
 
 body {
     background-color: white;
-    padding: 5px;
+    padding: 20px;
     font-family: Arial;
 }
 
@@ -51,7 +55,7 @@ body {
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 20px;
     word-break: break-all;
 }
 
@@ -62,19 +66,26 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-    padding: 5px;
+    padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 50%;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Content */
 .content {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -85,25 +96,11 @@ h1 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
 }
-    p {
-        text-size: 8px;
-    }
-    
-    #name {
-    text-align: center;
-    line-height: 78px;
-    width: 250px;
-    height: auto px;
-    border: 2px solid white;
-    margin: auto px;
-    float: left;
-    background-color: white;
-    
 </style>
 </head>
 <body>
@@ -111,56 +108,51 @@ h1 {
 <!-- MAIN (Center website) -->
 <div class="main">
 
-    <div id="name"><h1 align=left>Sarah Bellefeuille</h1></div>
-    <p align="right"> <a href=index>Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=about>About</a></p> 
+    <h1 align=left>Sarah Bellefeuille</h1> <p align="right"> <a href=index>Projects</a>&nbsp;&nbsp;&nbsp;<a href=about>About</a></p> 
     
 <hr>
 
+<h2>portfolio</h2>
 
 <!-- Portfolio Gallery Grid -->
 
-  <div class="column">
-    <div class="content">
-        <p> song project </p>
-        <img src="slide-1-638.jpg" alt=""   height="" width="100%">  
-    </div>
-    </div>
-    
-  <div class="column">
-    <div class="content">
-        <p> book cover redesign </p>
-        <img src="Screen Shot 2018-10-26 at 3.15.21 AM.png" alt=""   height="" width="100%">      
-    </div>
-  </div>
-    
-    
-  <div class="column">
-    <div class="content">
-        <p> church street branding </p>
-        <img src="Screen Shot 2018-10-26 at 3.37.01 AM.png" alt=""   height="" width="100%">
-    </div>
-  </div>
- 
-    
-  <div class="column">
-    <div class="content">
-    <p> phobia project </p>
-        <img src="slide-5-638.jpg" alt=""   height="" width="100%">
-    </div>
-  </div>
-  
-<!-- END GRID -->
-</div>
+ <div class="column">
+   <div class="content">
+       <p> song project </p>
+       <img src="slide-1-638.jpg" alt=""   height="" width="100%"> 
+   </div>
+   </div>
 
-<div class="content">
-  
-</div>
+
+ <div class="column">
+   <div class="content">
+       <p> book cover redesign </p>
+       <img src="Screen Shot 2018-10-26 at 3.15.21 AM.png" alt=""   height="" width="100%">     
+   </div>
+ </div>
+
+
+ <div class="column">
+  <div class="content">
+       <p> church street branding </p>
+       <img src="Screen Shot 2018-10-26 at 3.37.01 AM.png" alt=""   height="" width="100%">
+   </div>
+ </div>
+
+
+ <div class="column">
+   <div class="content">
+   <p> phobia project </p>
+      <img src="slide-5-638.jpg" alt=""   height="" width="100%">
+   </div>
+ </div>
+
 
 <!-- END MAIN -->
 </div>
     
        <p class="sansserif">Under Construction</p>
-   <p> <a href=resume>Resume</a></p>
+ 
    <p> Classwork for web design II class: </P>
    <p> <a href=testingtextproperties>Text Properties</a></p>
    <p><a href=modrian_hw5>Modrian</a></p>
