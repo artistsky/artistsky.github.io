@@ -4,10 +4,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link href="churchstreet_sarahbellefeuille.pdf" rel="stylesheet">
-    <link href="bellefeuille_bookcoverredesign.pdf" rel="stylesheet">
-    
-    
 <style>
 * 
     
@@ -18,21 +14,21 @@
     color: red; 
     background-color: transparent; 
     text-decoration: none;
-    text-size:15px;
+    text-size:10px;
 }
 
 a:visited {
     color: red;
     background-color: transparent;
     text-decoration: none;
-    text-size:15px;
+    text-size:10px;
 }
 
 a:hover {
     color: blue;
     background-color: transparent;
     text-decoration: none;
-    text-size: 15px;
+    text-size: 10px;
 }
 
 a:active {
@@ -44,7 +40,7 @@ a:active {
 
 body {
     background-color: white;
-    padding: 20px;
+    padding: 5px;
     font-family: Arial;
 }
 
@@ -55,7 +51,7 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 15px;
     word-break: break-all;
 }
 
@@ -66,13 +62,13 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-    padding: 8px;
+    padding: 5px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
+    width: 50%;
 }
 
 /* Clear floats after rows */ 
@@ -85,7 +81,7 @@ h1 {
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -96,11 +92,25 @@ h1 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width : 687px ){
     .column {
         width: 100%;
     }
 }
+    p {
+        text-size: 8px;
+    }
+    
+    #name {
+    text-align: center;
+    line-height: 78px;
+    width: 250px;
+    height: auto px;
+    border: 2px solid white;
+    margin: auto px;
+    float: left;
+    background-color: white;
+    
 </style>
 </head>
 <body>
@@ -108,14 +118,13 @@ h1 {
 <!-- MAIN (Center website) -->
 <div class="main">
 
-    <h1 align=left>Sarah Bellefeuille</h1> <p align="right"> <a href=index>Projects</a>&nbsp;&nbsp;&nbsp;<a href=about>About</a></p> 
+    <div id="name"><h1 align=left>Sarah Bellefeuille</h1></div>
+    <p align="right"> <a href=index>Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=about>About</a></p> 
     
 <hr>
 
-<h2>portfolio</h2>
 
 <!-- Portfolio Gallery Grid -->
-
  <div class="column">
    <div class="content">
        <p> song project </p>
@@ -146,15 +155,14 @@ h1 {
       <img src="slide-5-638.jpg" alt=""   height="" width="100%">
    </div>
  </div>
+<!-- END GRID -->
 
 
 <!-- END MAIN -->
 </div>
     
-    <p> <a ref=resume> Resume </a> </p>
-    
        <p class="sansserif">Under Construction</p>
- 
+   <p> <a href=resume>Resume</a></p>
    <p> Classwork for web design II class: </P>
    <p> <a href=testingtextproperties>Text Properties</a></p>
    <p><a href=modrian_hw5>Modrian</a></p>
@@ -163,4 +171,3 @@ h1 {
 </body>
     
 </html>
-
