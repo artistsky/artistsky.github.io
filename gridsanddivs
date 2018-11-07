@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GridsandDivs</title>
+	
+	<style>
+	.wrapper {
+    display: grid;
+    /*    grid-template-columns: 20px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-columns: 100px 1fr 2fr 4fr;
+    grid-template-columns: repeat(3, 1fr);*/
+    
+    grid-template-columns: 10fr 10fr 9fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /*  grid-column-gap: 10px;
+    grid-row-gap: 10px;*/
+    
+    width: 600px;
+}
+		.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+	text-align: center;
+}
+		
+		
+.something {
+  height: 100%;
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+	text-align: center;
+}		
+		
+.wrapper div {
+	background-color:aliceblue;
+    border: 1px solid black;
+    margin: -1px 0 0 -1px;
+    padding: 1em;
+}
+		
+.center {
+    display: block;
+    margin-left: 28px;
+}
+		
+		</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="one"><div class="something">logo and nav</div></div>
+	<div>
+		<div class="something">picture</div>
+	</div>
+   <div><div class="something">picture</div></div>
+		
+   <div><div class="something">picture</div></div>
+	
+   <div><div class="something">picture</div></div>
+		
+   <div><div class="something">picture</div></div>
+	
+   <div><div class="something">picture</div></div>
+		
+   <div><div class="something">picture</div></div>
+		
+   <div><div class="something">picture</div></div>
+		
+   <div><div class="something">picture</div></div>
+	<div class="one">footer</div>
+</div>
+
+</body>
+</html>
