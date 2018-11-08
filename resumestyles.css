@@ -17,7 +17,7 @@ body{
 .linebruh{
   position: absolute;
   left: 40vw;
-  height: 100%;
+  height: 1000px;
   border-left: 2px solid LightSlateGray;
 }
 .namebox{
