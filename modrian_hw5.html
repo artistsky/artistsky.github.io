@@ -39,6 +39,12 @@ a:active {
     text-size: 15px;
 }
 
+body {
+    background-color: white;
+    padding: 20px;
+    font-family: Arial;
+}
+
 /* Center website */
 .main {
     max-width: 1000px;
@@ -62,7 +68,32 @@ h2 {
 .row {
     margin: 8px -16px;
 }
-		
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
 .column {
@@ -76,6 +107,7 @@ h2 {
         width: 100%;
     }
 }
+
 	</style>
 	
 </head>
